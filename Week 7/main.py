@@ -10,6 +10,7 @@ def calculator():
     average_mark = 0
     for mark in marks:
         average_mark += mark
-    print("Average mark is:", average_mark / len(my_marks))
+    return average_mark / len(my_marks)
 
-calculator()
+print("Average mark is:", calculator())
+
