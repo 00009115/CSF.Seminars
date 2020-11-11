@@ -11,5 +11,5 @@ def calculator(marks):
         total_mark += mark
     return total_mark / len(my_marks)
 
-print("Average mark is:", calculator(list(my_marks.values())))
+print("Average mark is:", calculator(my_marks.values()))
 
