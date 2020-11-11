@@ -4,13 +4,12 @@ my_marks = {
     "WebTech": 72
 }
 
-marks = list(my_marks.values())
 
-def calculator():
+def calculator(marks):
     average_mark = 0
     for mark in marks:
         average_mark += mark
     return average_mark / len(my_marks)
 
-print("Average mark is:", calculator())
+print("Average mark is:", calculator(list(my_marks.values())))
 
