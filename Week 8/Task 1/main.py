@@ -1,9 +1,9 @@
 s1 = (18, 00009898, "Samarkand")
 s2 = (19, 00009597, "Tashkent")
 
-if s1 > s2:
-    print("s1 is older than s2")
-elif s1 == s2:
-    print("s1 is in the saem age with s2")
+if s1[0] > s2[0]:
+    print("Student with an ID of", s1[2], "is older than", "Student with an ID of", s2[2])
+elif s1[0] == s2[0]:
+    print("Student with an ID of", s1[2], "is in the same age with", "Student with an ID of", s2[2])
 else:
-    print("s1 is younger than s2")
+    print("Student with an ID of", s2[2], "is older than", "Student with an ID of", s1[2])
